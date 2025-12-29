@@ -1,62 +1,58 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Burger.IO</title>
+    <meta name="description" content="Confirme seu pedido - Burger.IO">
+    <meta name="theme-color" content="#ff6b35">
+    <title>Confirmar Pedido - Burger.IO</title>
+
+    <!-- Icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <!--ARQUIVO CSS PARA UTILIZAÇÃO DE ICONES-->
-    <link rel="stylesheet" href="styles.css"> <!--ARQUIVO CSS COM NOSSOS ESTILOS-->
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
     <header class="app_bar">
-        <a href="index.html">
+        <a href="index.html" title="Voltar para início">
             <i class='bx bx-home-alt'></i>
         </a>
         <div class="app_logo">
-            <img src="assets/burgerio_logo.png" alt="Burger.IO Logo Marca">
+            <img src="assets/burgerio_logo.png" alt="Burger.IO - Logo da Hamburgueria">
         </div>
-        <i class='bx bx-cart'></i>
-    </header><!--app_bar-->
+        <i class='bx bx-cart' title="Carrinho"></i>
+    </header>
 
     <main class="home-confirm">
-
         <h1>Confirme seu Pedido</h1>
 
         <section class="order-itens">
-
             <div class="order-card">
-
                 <div class="card-image">
-                    <img id="item-image" src="#" alt="">
+                    <img id="item-image" src="assets/burgerio_logo.png" alt="Imagem do produto">
                 </div>
 
                 <div class="card-details">
-
-                    <h2 id="item-name">Hamburger</h2>
-                    <h3 id="item-price">R$ 00.00</h3>
+                    <h2 id="item-name">Carregando...</h2>
+                    <h3 id="item-price">R$ 0,00</h3>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur
+                        Hambúrguer artesanal preparado com ingredientes frescos e de qualidade.
+                        Entrega rápida e segura!
                     </p>
                 </div>
-
-
-
             </div>
 
-
-            <a href="#" class="button-confirm" onclick="openWhatsApp()">
+            <button class="button-confirm" onclick="openWhatsApp()">
                 <i class='bx bxl-whatsapp'></i> Fazer o Pedido
-            </a>
-
+            </button>
         </section>
-
     </main>
 
-    <script src="app2.js"></script>
+    <script src="js/confirm-order.js"></script>
 </body>
 
 </html>

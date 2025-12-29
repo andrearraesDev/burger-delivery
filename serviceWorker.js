@@ -1,17 +1,17 @@
 // Nome da key onde ficaram guardados os arquivos
 const staticBurgerIo = "burger-io-pwa-v1";
 
-// Lista de aquivos para ser salvos em cache
+// Lista de arquivos para serem salvos em cache
 const assets = [
   "/",
   "/index.html",
   "/item_details.html",
   "/confirm_order.html",
-  "/style.css",
-  "/app.js",
-  "/app2.js",
-  "/app3.js",
-  "/assets/bugerio_logo.png",
+  "/css/styles.css",
+  "/js/main.js",
+  "/js/item-details.js",
+  "/js/confirm-order.js",
+  "/assets/burgerio_logo.png",
   "/assets/double-x.jpg",
   "/assets/o-burger-x.jpg",
   "/assets/x-bacon.jpg",
